@@ -1,0 +1,23 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      before: |
+        <li><a href="./">Revisiones Bibliográficas</a></li>
+      after: |
+        <li><a href="https://elrobin.github.io/" target="blank">Elaborado por Rodrigo Costas</a></li>
+    download: ["pdf"]
+    sharing: no
+  highlight: tango
+
+bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
+  latex_engine: xelatex
+  citation_package: natbib
+  keep_tex: no
+  toc: yes
+  toc_depth: 2
+  number_sections: yes
+  fontsize: 11pt
+  geometry: "margin=2.5cm"

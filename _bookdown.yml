@@ -1,0 +1,14 @@
+book_filename: "revision_bibliografica"
+language:
+  ui:
+    chapter_name: "Bloque "
+new_session: yes
+before_chapter_script: []
+rmd_files: [
+  "index.Rmd",
+  "01-intro.Rmd",
+  "02-busqueda.Rmd",
+  "03-notebooklm.Rmd",
+  "04-vosviewer.Rmd",
+  "05-sintesis.Rmd"
+]

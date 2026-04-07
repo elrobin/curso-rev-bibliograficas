@@ -1,0 +1,55 @@
+--- 
+title: "Metodologías para la Revisión Bibliográfica"
+subtitle: "Herramientas y proceso de trabajo"
+author: "Rodrigo Costas"
+date: "April 2026"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: []
+description: "Materiales de curso sobre metodologías y herramientas para la creación de revisiones bibliográficas, con énfasis en el proceso crítico de trabajo."
+---
+
+# Prefacio {-}
+
+Este documento recoge los materiales de formación sobre **metodologías para la revisión bibliográfica**. Está diseñado como un recurso vivo: cada bloque puede impartirse de forma independiente o en combinación con los demás, y el material irá ampliándose en futuras ediciones.
+
+## Estructura del curso {-}
+
+El curso se organiza en torno a un flujo de trabajo real, no a una secuencia de herramientas. La idea central es que **una buena revisión bibliográfica es el resultado de decisiones metodológicas conscientes**, y que las herramientas digitales son un apoyo a ese proceso crítico, no un sustituto.
+
+| Bloque | Contenido | Tiempo estimado |
+|--------|-----------|-----------------|
+| 1 | Introducción: tipos de revisión y criterios de calidad | 30 min |
+| 2 | Búsqueda, merge y limpieza del corpus | 60 min |
+| 3 | Lectura y análisis con NotebookLM | 50 min |
+| 4 | Análisis visual con VOSviewer | 40 min |
+| 5 | Síntesis, organización y escritura | — |
+
+## Herramientas empleadas {-}
+
+A lo largo del curso trabajaremos con las siguientes herramientas, todas gratuitas:
+
+- **Zotero** — gestión de referencias y deduplicación
+- **Claude / ChatGPT** — asistencia en limpieza de corpus y análisis
+- **NotebookLM** (Google) — análisis y organización de lecturas
+- **VOSviewer** — visualización y análisis de redes bibliométricas
+
+Se mencionan también como recursos para profundizar: **Bibliometrix** (R) y las funcionalidades avanzadas de VOSviewer (overlay maps).
+
+## Nota sobre los ejemplos {-}
+
+Los ejercicios prácticos se desarrollan sobre **[TEMA A ANALIZAR]**, elegido conjuntamente con el grupo al inicio de la sesión. Todos los pasos están documentados de forma que puedan replicarse con cualquier otro corpus.
+
+## Cómo generar este documento en PDF {-}
+
+Si tienes R y el paquete `bookdown` instalados, puedes generar el PDF ejecutando:
+
+```r
+bookdown::render_book("index.Rmd", "bookdown::pdf_book")
+```
+
+O en HTML navegable:
+
+```r
+bookdown::render_book("index.Rmd", "bookdown::gitbook")
+```
