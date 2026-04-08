@@ -86,3 +86,10 @@ escribir-antes-de-tener-todo
 el-papel-de-los-llms-en-la-escritura
 revisión-y-cierre
 consejos-finales
+tipos-de-revisión-y-criterios-de-calidad
+para-qué-estoy-haciendo-esta-revisión
+elegir-el-tipo-adecuado-la-pregunta-manda
+dos-revisiones-narrativas-reales-decisiones-metodológicas-y-cómo-defenderlas
+gonzález-salmón-et-al.-2025-jasist
+robinson-garcia-et-al.-2025-qss
+algunas-observaciones-antes-de-empezar

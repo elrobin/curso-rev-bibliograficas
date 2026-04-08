@@ -1,55 +1,47 @@
---- 
-title: "Metodologías para la Revisión Bibliográfica"
-subtitle: "Herramientas y proceso de trabajo"
-author: "Rodrigo Costas"
-date: "April 2026"
+---
+title: "Técnicas esenciales para preparar una revisión de la literatura"
+author: "Nicolas Robinson-Garcia"
+date: "abril 2026"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: []
-description: "Materiales de curso sobre metodologías y herramientas para la creación de revisiones bibliográficas, con énfasis en el proceso crítico de trabajo."
+description: "Versión 2.0 de materiales del curso Técnicas esenciales para preparar una revisión de la literatura."
 ---
 
-# Prefacio {-}
+# Introducción {.unnumbered}
 
-Este documento recoge los materiales de formación sobre **metodologías para la revisión bibliográfica**. Está diseñado como un recurso vivo: cada bloque puede impartirse de forma independiente o en combinación con los demás, y el material irá ampliándose en futuras ediciones.
+Este curso aborda una tarea común a todas las áreas y estadios en la carrera académica de toda investigadora. Esto es, el **proceso de revisión bibliográfica**. Así pues, abordaremos cuestiones comunes ya sea porque estás redactando tu tesis, trabajando en un artículo de investigación o quieres precisamente publicar una revisión de la literatura.
 
-## Estructura del curso {-}
+La revisión bibliográfica tradicional, el típico estado de la cuestión, requiere un tipo de abordaje al proceso de búsqueda y estructuración de la información muy diferente a los anteriores. Asimismo, la estructura del texto y el tipo de redacción no están tan formalizados como en el caso de los artículos de investigación y su típica estructura IMRyD. Esto hace que requiera de ciertas **dotes artesanales** que nos permiten ser algo más creativos con todo lo que ello conlleva de esfuerzo y dificultad.
 
-El curso se organiza en torno a un flujo de trabajo real, no a una secuencia de herramientas. La idea central es que **una buena revisión bibliográfica es el resultado de decisiones metodológicas conscientes**, y que las herramientas digitales son un apoyo a ese proceso crítico, no un sustituto.
+Asimismo, os recomiendo otros cursos y materiales elaborados tanto por mí como otros compañeros relacionados con este curso:
 
-| Bloque | Contenido | Tiempo estimado |
-|--------|-----------|-----------------|
-| 1 | Introducción: tipos de revisión y criterios de calidad | 30 min |
-| 2 | Búsqueda, merge y limpieza del corpus | 60 min |
-| 3 | Lectura y análisis con NotebookLM | 50 min |
-| 4 | Análisis visual con VOSviewer | 40 min |
-| 5 | Síntesis, organización y escritura | — |
+-   [Revisiones sistemáticas para doctorandos. Recomendaciones (I)](https://yosigo.ugr.es/courses/revisiones-sistematicas-para-doctorandos-i/) de JJ Boté
+-   [Técnicas de mapeo bibliográfico para llevar a cabo revisiones](https://yosigo.ugr.es/courses/tecnicas-de-mapeo-bibliografico-para-llevar-a-cabo-revisiones-ii-second-edition/) de Rubén Alba-Ruiz
+-   [Técnicas esenciales para preparar una revisión bibliográfica](https://www.youtube.com/watch?v=iS3SbpYf98o) de Nicolás Robinson-García (versión 1.0 de este curso).
 
-## Herramientas empleadas {-}
+## Estructura del curso {.unnumbered}
+
+He organizado el curso siguiendo el flujo de trabajo real que supone hacer una revisión bibliográfica y no limitarme a enseñaros herramientas específicas. La idea central es que **una buena revisión bibliográfica es el resultado de decisiones metodológicas conscientes**, y que las herramientas digitales son un apoyo a ese proceso crítico, no un sustituto.
+
+| Bloque | Contenido                                                  |
+|--------|------------------------------------------------------------|
+| 1      | Tipos de revisión y criterios de calidad                   |
+| 2      | Búsqueda, selección e integración del corpus bibliográfico |
+| 3      | Lectura y análisis asistidos con NotebookLM                |
+| 4      | Análisis visual con VOSviewer                              |
+| 5      | Síntesis, organización y escritura                         |
+
+## Herramientas empleadas {.unnumbered}
 
 A lo largo del curso trabajaremos con las siguientes herramientas, todas gratuitas:
 
-- **Zotero** — gestión de referencias y deduplicación
-- **Claude / ChatGPT** — asistencia en limpieza de corpus y análisis
-- **NotebookLM** (Google) — análisis y organización de lecturas
-- **VOSviewer** — visualización y análisis de redes bibliométricas
+-   **Zotero** — gestión de referencias y deduplicación
+-   **Claude / ChatGPT** — asistencia en limpieza de corpus y análisis
+-   **NotebookLM** (Google) — análisis y organización de lecturas
+-   **VOSviewer** — visualización y análisis de redes bibliométricas
 
-Se mencionan también como recursos para profundizar: **Bibliometrix** (R) y las funcionalidades avanzadas de VOSviewer (overlay maps).
+Otras herramientas interesantes que conviene explorar (y que no veremos explícitamente aquí) son:
 
-## Nota sobre los ejemplos {-}
-
-Los ejercicios prácticos se desarrollan sobre **[TEMA A ANALIZAR]**, elegido conjuntamente con el grupo al inicio de la sesión. Todos los pasos están documentados de forma que puedan replicarse con cualquier otro corpus.
-
-## Cómo generar este documento en PDF {-}
-
-Si tienes R y el paquete `bookdown` instalados, puedes generar el PDF ejecutando:
-
-```r
-bookdown::render_book("index.Rmd", "bookdown::pdf_book")
-```
-
-O en HTML navegable:
-
-```r
-bookdown::render_book("index.Rmd", "bookdown::gitbook")
-```
+-   [**Bibliometrix**](https://www.bibliometrix.org/home/) (R)
+-   Las funcionalidades avanzadas de VOSviewer (**overlay maps**)
