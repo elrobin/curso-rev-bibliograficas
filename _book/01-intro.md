@@ -22,7 +22,7 @@ Esto tiene implicaciones directas para quien quiere hacer una revisión hoy:
 No todas las revisiones tienen el mismo objetivo, y eso condiciona todo lo demás: el alcance, la exhaustividad, la estructura y el tono. Antes de buscar una sola referencia, conviene tener clara la respuesta a esta pregunta.
 
 | Objetivo | Consideraciones | Nivel de exhaustividad |
-|:---------------:|-------------------------------|:------------------------------:|
+|:----------------:|---------------------------|:--------------------------:|
 | **Capítulo de tesis** | Demostrar un amplio conocimiento del campo, desde sus inicios hasta los avances más recientes | Amplio e histórico |
 | **Sección de artículo** | Justificar un vacío en la literatura sobre la cuestión específica que se va a analizar. Es una revisión dirigida | Acotado y dirigido |
 | **Revisión como paper** | Resumir la información más reciente y actualizada acerca de un frente de investigación para ofrecer una agenda de futuro | Amplio y dirigido |
@@ -35,17 +35,35 @@ No existe un único tipo de revisión bibliográfica. La elección del tipo adec
 
 La revisión narrativa es la forma más flexible y menos estandarizada. El autor selecciona y sintetiza literatura relevante sobre un tema sin seguir un protocolo explícito ni criterios de búsqueda sistemáticos.
 
-**Cuándo usarla:** cuando el objetivo es ofrecer una panorámica general de un campo, contextualizar un problema o identificar debates. Es habitual en introducciones de artículos empíricos y en ensayos teóricos. Es también la tipología tradicional en Ciencias Sociales y Humanidades.
+**Cuándo usarla:**
 
-**Limitaciones:** la selección de fuentes puede ser sesgada, y los resultados son difícilmente reproducibles. No es adecuada cuando se necesita una síntesis exhaustiva o cuando las conclusiones van a informar decisiones con consecuencias prácticas importantes.
+1.  Para ofrecer una panorámica general de un campo y posicionarme dentro del mismo marcando el camino a seguir.
+    -   [**Science of Science**](https://doi.org/10.1126/science.aao0185). Los grandes líderes de un campo incipiente se posicionan como referencias internacionales.
+
+    -   [**Science of Team Science**](https://psycnet.apa.org/doi/10.1037/amp0000319)**.** Aquí se trata más bien de marcar la agenda de investigación de una nueva sub-disciplina.
+2.  Para contextualizar un problema muy específico o identificar distintas posiciones, organizar literatura dispersa y establecer las líneas de trabajo a seguir. Aquí os pongo dos ejemplos propios que iremos analizando a lo largo del curso:
+    -   [**The woman researcher's tale**](https://doi.org/10.1002/asi.25012)**.** Centrado en estudios bibliométricos que analizan las diferencias de género en ciencia.
+
+    -   [**The use of informetric methods to study diversity in the scientific workforce**](https://doi.org/10.1162/qss_a_00367)**.** Aquí se revisan métodos bibliométricos aplicados exclusivamente a estudiar diversidad de perfiles científicos.
+
+Este tipo de revisiones no sólo es una tipología documental, sino que sería la habitual revisión que se incluye en introducciones de artículos científicos y de tesis doctorales. Es también la tipología tradicional en Ciencias Sociales y Humanidades.
+
+**Limitaciones:**
+
+1.  La selección de fuentes puede ser sesgada, y los resultados son difícilmente reproducibles.
+2.  En ocasiones se valora por el principio de autoridad (quién la escribe), de hecho, históricamente estas revisiones se escribían por encargo.
+3.  Es clave justificar y delimitar muy bien tanto la pregunta de investigación como el valor añadido que aporta la revisión.
 
 ### Revisión sistemática
 
 La revisión sistemática sigue un **protocolo explícito y reproducible**: define a priori la pregunta, los criterios de búsqueda, las fuentes consultadas, y los criterios de inclusión y exclusión. El proceso queda documentado de forma que un investigador independiente podría replicarlo.
 
-**Cuándo usarla:** cuando se necesita una síntesis exhaustiva y transparente sobre una pregunta específica. Es el estándar en ciencias de la salud (modelo Cochrane), pero se aplica cada vez más en ciencias sociales. Sigue una estructura IMRaD y tiene sus propias directrices — **PRISMA**.
+**Cuándo usarla:** cuando se necesita una síntesis exhaustiva y transparente sobre una pregunta específica. Es el estándar en ciencias de la salud (modelo Cochrane), pero se aplica cada vez más en ciencias sociales. Sigue una estructura IMRaD y tiene sus propias directrices — [**PRISMA**](https://www.prisma-statement.org/). En la propia web ofrecen muchos recursos y una descripción muy detallada del proceso de trabajo a seguir.
 
-**Limitaciones:** requiere tiempo, recursos y rigor metodológico. No es adecuada para preguntas amplias o poco delimitadas.
+**Limitaciones:**
+
+1.  Aunque históricamente requería tiempo, recursos y rigor metodológico, cada vez es más automatizable.
+2.  Muchas revisiones de este tipo son extremadamente superficiales y poco fundamentadas gracias a la proliferación de herramientas-receta.
 
 ### Meta-análisis
 
@@ -72,16 +90,14 @@ La siguiente tabla ofrece una orientación rápida, no una receta:
 | ¿Cuáles son los debates y supuestos del campo X? | Crítica / Integradora |
 
 ::: nota
-**Nota:** En ciencias sociales, la frontera entre tipos de revisión es más porosa que en ciencias de la salud. Lo importante no es etiquetar correctamente el tipo, sino que la metodología elegida sea coherente con la pregunta y esté **justificada explícitamente**.
+👣 **Nota:** En ciencias sociales, la frontera entre tipos de revisión es más porosa que en ciencias de la salud. Lo importante no es etiquetar correctamente el tipo, sino que la metodología elegida sea coherente con la pregunta y esté **justificada explícitamente**.
 :::
 
 ## Dos revisiones narrativas reales: decisiones metodológicas y cómo defenderlas
 
-Vamos a ver dos ejemplos concretos de revisiones narrativas publicadas en revistas de primer nivel en bibliometría y cienciometría. Ambas ilustran cómo se toman y se justifican decisiones metodológicas sin recurrir a PRISMA, y cómo responder a revisores que piden sistematización cuando no es necesaria ni adecuada.
+Vamos a ver dos ejemplos concretos de revisiones narrativas. Ambas ilustran cómo se toman y se justifican decisiones metodológicas sin recurrir a PRISMA, y cómo responder a revisores que piden sistematización cuando no es necesaria ni adecuada.
 
 ### González-Salmón et al. (2025, JASIST)
-
-> González-Salmón, E., Chinchilla-Rodríguez, Z., & Robinson-Garcia, N. (2025). The woman researcher's tale: A review of bibliometric methods and results for studying gender in science. *Journal of the Association for Information Science and Technology*, 76(9), 1188–1209.
 
 Esta revisión cubre 246 publicaciones sobre métodos bibliométricos para estudiar el género en ciencia a lo largo de 30 años. Los autores eligen explícitamente la revisión **narrativa** por varias razones:
 
@@ -93,36 +109,8 @@ Aspectos a destacar: estructura temática en dos grandes bloques (metodología �
 
 ### Robinson-Garcia et al. (2025, QSS)
 
-> Robinson-Garcia, N., Corona-Sobrino, C., Chinchilla-Rodríguez, Z., Torres-Salinas, D., & Costas, R. (2025). The use of informetric methods to study diversity in the scientific workforce: A literature review. *Quantitative Science Studies*, 6, 652–685.
-
 Esta revisión examina más de 250 estudios sobre métodos infométricos para estudiar la diversidad en la fuerza laboral científica. También es narrativa, y la justificación es similar:
 
 -   Se trata de un campo con tradición propia en sociología de la ciencia, cienciometría y política científica — imponer PRISMA habría excluido literatura clave de algunas de estas tradiciones.
 -   La estructura se organiza por **áreas temáticas** (fuentes de datos, características individuales, contexto, dinámica de equipos), no por criterios de inclusión/exclusión.
 -   Las tablas comparativas (como la Tabla 1 comparando revisiones previas) sustituyen al diagrama de flujo PRISMA como herramienta de transparencia.
-
-::: actividad
-**Para discutir:** ¿Habrías pedido a los autores que siguieran PRISMA? ¿Qué habrían ganado? ¿Qué habrían perdido?
-:::
-
-## La pregunta de investigación como punto de partida
-
-Ningún tipo de revisión funciona sin una **pregunta bien formulada**. Una pregunta de revisión debe ser específica, contestable y justificada.
-
-Una herramienta útil para estructurar la pregunta en ciencias sociales es el marco **PICo**:
-
--   **P** (Population/Phenomenon): ¿sobre qué población o fenómeno?
--   **I** (Interest): ¿qué aspecto o intervención?
--   **Co** (Context): ¿en qué contexto?
-
-::: actividad
-**Actividad:** A partir del tema elegido por el grupo ([TEMA A ANALIZAR]), formulad una pregunta de revisión usando el marco PICo. Discutid: ¿es suficientemente específica? ¿Está justificada su necesidad? ¿Qué tipo de revisión sería más adecuado?
-:::
-
-## El valor añadido como criterio de calidad
-
-Más allá de la corrección metodológica, una buena revisión debe poder responder a esta pregunta: **¿qué aporta esta revisión que no aportaba la literatura existente?**
-
-Algunas formas legítimas de valor añadido: cubre un periodo temporal nuevo, incorpora literatura en otros idiomas o regiones, aplica un marco teórico distinto, o identifica contradicciones no señaladas previamente.
-
-Lo que **no** constituye valor añadido suficiente: actualizar una revisión existente sin que haya evidencia nueva significativa, o replicar la metodología de una revisión previa sobre el mismo tema sin justificación clara.

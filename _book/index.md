@@ -1,7 +1,7 @@
 ---
 title: "Técnicas esenciales para preparar una revisión de la literatura"
 author: "Nicolas Robinson-Garcia"
-date: "abril 2026"
+date: "April 2026"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: []
