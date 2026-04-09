@@ -91,3 +91,14 @@ el-papel-de-los-llms-en-la-escritura
 revisión-y-cierre
 consejos-finales
 búsqueda-selección-e-integración-del-corpus-bibliográfico
+fuentes-de-información-qué-bases-de-datos-emplear
+estrategia-de-búsqueda-clásica-para-revisiones-sistemáticas
+estrategia.-la-clásica-para-revisiones-sistemáticas
+variante-1.-el-uso-de-ontologías
+variante-2.-mapeo-y-zoom
+estrategias-de-búsqueda
+la-clásica-para-revisiones-sistemáticas
+variante-a.-el-uso-de-ontologías
+variante-b.-mapeo-y-zoom
+revisiones-narrativas
+configuración-recomendada-para-revisiones-sistemáticas

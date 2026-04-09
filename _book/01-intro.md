@@ -22,7 +22,7 @@ Esto tiene implicaciones directas para quien quiere hacer una revisión hoy:
 No todas las revisiones tienen el mismo objetivo, y eso condiciona todo lo demás: el alcance, la exhaustividad, la estructura y el tono. Antes de buscar una sola referencia, conviene tener clara la respuesta a esta pregunta.
 
 | Objetivo | Consideraciones | Nivel de exhaustividad |
-|:----------------:|---------------------------|:--------------------------:|
+|:--:|----|:--:|
 | **Capítulo de tesis** | Demostrar un amplio conocimiento del campo, desde sus inicios hasta los avances más recientes | Amplio e histórico |
 | **Sección de artículo** | Justificar un vacío en la literatura sobre la cuestión específica que se va a analizar. Es una revisión dirigida | Acotado y dirigido |
 | **Revisión como paper** | Resumir la información más reciente y actualizada acerca de un frente de investigación para ofrecer una agenda de futuro | Amplio y dirigido |
