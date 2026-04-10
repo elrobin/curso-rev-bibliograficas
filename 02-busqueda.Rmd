@@ -30,7 +30,7 @@ Para ciencias sociales, las tres fuentes principales son:
 ### Web of Science (WoS)
 
 | Ventajas | Limitaciones |
-|------------------------------------|------------------------------------|
+|----|----|
 | Alta calidad y selectividad en la indexación. | Cobertura limitada de literatura en español y de revistas latinoamericanas o temáticas de carácter local |
 | Excelente cobertura de revistas de alto impacto en ciencias sociales a nivel internacional | No cubre literatura gris ni tesis doctorales |
 | Permite búsquedas muy precisas con operadores booleanos avanzados | Acceso restringido (requiere suscripción institucional) |
@@ -40,7 +40,7 @@ Para ciencias sociales, las tres fuentes principales son:
 ### Scopus
 
 | Ventajas | Limitaciones |
-|------------------------------------|------------------------------------|
+|----|----|
 | Mayor cobertura que WoS en número de revistas, especialmente en ciencias sociales y humanidades | Acceso restringido (requiere suscripción institucional) |
 | Buena cobertura de literatura en español e iberoamericana | La mayor cobertura implica también mayor variabilidad en calidad |
 | Interfaz de búsqueda potente y flexible | Datos de citación algo menos fiables que WoS para análisis bibliométricos precisos |
@@ -49,7 +49,7 @@ Para ciencias sociales, las tres fuentes principales son:
 ### Google Scholar
 
 | Ventajas | Limitaciones |
-|------------------------------------|------------------------------------|
+|----|----|
 | Acceso gratuito y universal | No permite exportación masiva directa (límite de \~1000 resultados con Publish or Perish) |
 | Cobertura amplísima: incluye preprints, tesis, literatura gris, libros y capítulos | Calidad de metadatos muy variable: errores frecuentes en autores, años y títulos |
 | Muy útil para campos emergentes o con literatura dispersa | No ofrece operadores booleanos avanzados comparables a WoS/Scopus |
@@ -71,9 +71,10 @@ El flujo clásico PRISMA es el siguiente:
 
 2.  Combino los términos seleccionados empleando **operadores booleanos** y **operadores de truncamiento**, y diseño mi ecuación de búsqueda.
 
-    ![Los operadores booleanos básicos](images/operadores booleanos.png){width="561"}
+    ![Los operadores booleanos básicos](images/operadores%20booleanos.png){width="561"}
 
-3.  **Evalúo y analizo los resultados** para valorar la pertinencia de los términos, eliminar y sustituir términos ambiguos, añadir otros términos relacionados, etc. Repito pasos 2 y 3 hasta estar satisfecho con la ecuación de búsqueda y los resultados obtenidos.
+3.  **Evalúo y analizo los resultados** para valorar la pertinencia de los términos, eliminar y sustituir términos ambiguos, añadir otros términos relacionados, etc.
+    Repito pasos 2 y 3 hasta estar satisfecho con la ecuación de búsqueda y los resultados obtenidos.
 
 ::: {#aviso}
 **Truncamiento:** el asterisco `*` permite recuperar variantes de una raíz.
@@ -205,7 +206,7 @@ Son opciones a explorar para flujos de trabajo más avanzados, aunque requieren 
 No he llegado a probarlos
 :::
 
-##  El corpus limpio: qué tenemos al final de este bloque
+## El corpus limpio: qué tenemos al final de este bloque
 
 Al terminar el proceso de búsqueda, importación y deduplicación, debemos tener:
 

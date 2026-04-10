@@ -5,7 +5,7 @@ bookdown::gitbook:
       before: |
         <li><a href="./">Revisiones Bibliográficas</a></li>
       after: |
-        <li><a href="https://elrobin.github.io/" target="blank">Elaborado por Rodrigo Costas</a></li>
+        <li><a href="https://elrobin.github.io/" target="blank">Elaborado por Nicolás Robinson-Garcia</a></li>
     download: ["pdf"]
     sharing: no
   highlight: tango

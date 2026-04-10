@@ -1,7 +1,7 @@
 ---
 title: "Técnicas esenciales para preparar una revisión de la literatura"
 author: "Nicolas Robinson-Garcia"
-date: "April 2026"
+date: "abril 2026"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: []
@@ -28,8 +28,8 @@ He organizado el curso siguiendo el flujo de trabajo real que supone hacer una r
 |--------|------------------------------------------------------------|
 | 1      | Tipos de revisión y criterios de calidad                   |
 | 2      | Búsqueda, selección e integración del corpus bibliográfico |
-| 3      | Lectura y análisis asistidos con NotebookLM                |
-| 4      | Análisis visual con VOSviewer                              |
+| 3      |  Análisis visual con VOSviewer               |
+| 4      | Lectura y análisis asistidos con NotebookLM                              |
 | 5      | Síntesis, organización y escritura                         |
 
 ## Herramientas empleadas {.unnumbered}

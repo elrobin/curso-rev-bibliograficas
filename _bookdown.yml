@@ -8,7 +8,8 @@ rmd_files: [
   "index.Rmd",
   "01-intro.Rmd",
   "02-busqueda.Rmd",
-  "03-notebooklm.Rmd",
-  "04-vosviewer.Rmd",
+  "03-vosviewer.Rmd",
+  "04-notebooklm.Rmd",
   "05-sintesis.Rmd"
 ]
+output_dir: "_book"
