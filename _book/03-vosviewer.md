@@ -68,7 +68,7 @@ de búsqueda que he empleado:
 ```
 
 [📂Descarga del primer fichero](data/savedrecs.txt) - [📂Descarga del
-segundo fichero](data/savedrecs (1).txt)
+segundo fichero](data/savedrecs%20(1).txt)
 
 Una vez descargados, toca cargarlos en VOSviewer:
 

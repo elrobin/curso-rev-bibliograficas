@@ -69,7 +69,7 @@ No todos los artículos de un corpus merecen el mismo nivel de atención.
 Una gestión eficiente del tiempo de lectura implica distinguir:
 
 | Lectura de cribado | Lectura profunda |
-|------------------------------------|------------------------------------|
+|----|----|
 | Título, abstract y conclusiones | Texto completo, incluyendo metodología, resultados y discusión |
 | **Objetivo:** decidir si el artículo es relevante para la pregunta de investigación | **Objetivo:** extraer datos, evaluar calidad metodológica, comprender argumentos - Reservada para los artículos que superan el cribado |
 | **Tiempo estimado:** 2-5 minutos por artículo | **Tiempo estimado:** 30-90 minutos por artículo |

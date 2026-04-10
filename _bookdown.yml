@@ -12,4 +12,4 @@ rmd_files: [
   "04-notebooklm.Rmd",
   "05-sintesis.Rmd"
 ]
-output_dir: "_book"
+output_dir: "docs"
