@@ -1,12 +1,14 @@
 ---
 title: "Técnicas esenciales para preparar una revisión de la literatura"
 author: "Nicolas Robinson-Garcia"
-date: "2026-04-10"
+date: "2026-07-05"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: []
-description: "Versión 2.0 de materiales del curso Técnicas esenciales para preparar una revisión de la literatura."
+description: "Versión 2.0 — edición reducida (sesión de 2h) de los materiales del curso Técnicas esenciales para preparar una revisión de la literatura."
 ---
+
+<!-- TODO (revisar sí o sí): fecha del curso y título/subtítulo si procede (p.ej. nombre de la institución que lo organiza). -->
 
 # Introducción {.unnumbered}
 
@@ -22,26 +24,28 @@ Asimismo, os recomiendo otros cursos y materiales elaborados tanto por mí como 
 
 ## Estructura del curso {.unnumbered}
 
-He organizado el curso siguiendo el flujo de trabajo real que supone hacer una revisión bibliográfica y no limitarme a enseñaros herramientas específicas. La idea central es que **una buena revisión bibliográfica es el resultado de decisiones metodológicas conscientes**, y que las herramientas digitales son un apoyo a ese proceso crítico, no un sustituto.
+Esta es la **edición reducida** del curso, pensada para una sesión de 2 horas. He organizado el curso siguiendo el flujo de trabajo real que supone hacer una revisión bibliográfica y no limitarme a enseñaros herramientas específicas. La idea central es que **una buena revisión bibliográfica es el resultado de decisiones metodológicas conscientes**, y que las herramientas digitales son un apoyo a ese proceso crítico, no un sustituto.
 
-| Bloque | Contenido                                                  |
-|--------|------------------------------------------------------------|
-| 1      | Tipos de revisión y criterios de calidad                   |
-| 2      | Búsqueda, selección e integración del corpus bibliográfico |
-| 3      |  Análisis visual con VOSviewer               |
-| 4      | Lectura y análisis asistidos con NotebookLM                              |
-| 5      | Síntesis, organización y escritura                         |
+| Bloque | Contenido | Duración aprox. |
+|--------|-----------|:--:|
+| 1 | Intro y objetivos del curso | 10 min |
+| 2 | Tipos de revisiones bibliográficas | 20 min |
+| 3 | La revisión sistemática | 20 min |
+| 4 | Búsqueda y selección | 20 min |
+| 5 | Proceso de lectura | 15 min |
+| 6 | Organización, síntesis y escritura | 25 min |
+| 7 | Consejos finales y cierre | 10 min |
+
+Además, se incluye un **apéndice** con las herramientas de apoyo (VOSviewer, NotebookLM y Zotero) que en la v1 del curso ocupaban bloques completos. En esta edición de 2h se mencionan brevemente en el Bloque 3 y quedan documentadas en detalle en el apéndice como material de referencia — no se imparten en vivo, salvo que decidas ampliar la sesión.
+
+<!-- TODO (revisar sí o sí): confirmar los tiempos de la tabla contra el guion real una vez maquetado, y decidir si el apéndice se entrega como PDF aparte o como sección final del mismo documento. -->
 
 ## Herramientas empleadas {.unnumbered}
 
-A lo largo del curso trabajaremos con las siguientes herramientas, todas gratuitas:
+A lo largo del curso se mencionan las siguientes herramientas, todas gratuitas:
 
--   **Zotero** — gestión de referencias y deduplicación
+-   **Zotero** — gestión de referencias y deduplicación (ver Apéndice)
 -   **Claude / ChatGPT** — asistencia en limpieza de corpus y análisis
--   **NotebookLM** (Google) — análisis y organización de lecturas
--   **VOSviewer** — visualización y análisis de redes bibliométricas
-
-Otras herramientas interesantes que conviene explorar (y que no veremos explícitamente aquí) son:
-
--   [**Bibliometrix**](https://www.bibliometrix.org/home/) (R)
--   Las funcionalidades avanzadas de VOSviewer (**overlay maps**)
+-   **NotebookLM** (Google) — análisis y organización de lecturas (ver Apéndice)
+-   **VOSviewer** — visualización y análisis de redes bibliométricas (ver Apéndice)
+-   **Bibliometrix** (R) — análisis bibliométrico avanzado (ver Apéndice)

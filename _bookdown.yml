@@ -6,10 +6,13 @@ new_session: yes
 before_chapter_script: []
 rmd_files: [
   "index.Rmd",
-  "01-intro.Rmd",
-  "02-busqueda.Rmd",
-  "03-vosviewer.Rmd",
-  "04-notebooklm.Rmd",
-  "05-sintesis.Rmd"
+  "01-intro-objetivos.Rmd",
+  "02-tipos-revision.Rmd",
+  "03-revision-sistematica.Rmd",
+  "04-busqueda-seleccion.Rmd",
+  "05-lectura.Rmd",
+  "06-organizacion-sintesis-escritura.Rmd",
+  "07-consejos-cierre.Rmd",
+  "08-apendice-herramientas.Rmd"
 ]
 output_dir: "docs"
