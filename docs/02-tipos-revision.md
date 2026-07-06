@@ -9,13 +9,13 @@ La revisión narrativa es la forma más flexible y menos estandarizada. El autor
 **Cuándo usarla:**
 
 1.  Para ofrecer una panorámica general de un campo y posicionarme dentro del mismo marcando el camino a seguir.
-    -   [**Science of Science**](https://doi.org/10.1126/science.aao0185). Los grandes líderes de un campo incipiente se posicionan como referencias internacionales.
+    - [**Science of Science**](https://doi.org/10.1126/science.aao0185). Los grandes líderes de un campo incipiente se posicionan como referencias internacionales.
 
-    -   [**Science of Team Science**](https://psycnet.apa.org/doi/10.1037/amp0000319)**.** Aquí se trata más bien de marcar la agenda de investigación de una nueva sub-disciplina.
+    - [**Science of Team Science**](https://psycnet.apa.org/doi/10.1037/amp0000319)**.** Aquí se trata más bien de marcar la agenda de investigación de una nueva sub-disciplina.
 2.  Para contextualizar un problema muy específico o identificar distintas posiciones, organizar literatura dispersa y establecer las líneas de trabajo a seguir. Aquí os pongo dos ejemplos propios que iremos analizando a lo largo del curso:
-    -   [**The woman researcher's tale**](https://doi.org/10.1002/asi.25012)**.** Centrado en estudios bibliométricos que analizan las diferencias de género en ciencia.
+    - [**The woman researcher's tale**](https://doi.org/10.1002/asi.25012)**.** Centrado en estudios bibliométricos que analizan las diferencias de género en ciencia.
 
-    -   [**The use of informetric methods to study diversity in the scientific workforce**](https://doi.org/10.1162/qss_a_00367)**.** Aquí se revisan métodos bibliométricos aplicados exclusivamente a estudiar diversidad de perfiles científicos.
+    - [**The use of informetric methods to study diversity in the scientific workforce**](https://doi.org/10.1162/qss_a_00367)**.** Aquí se revisan métodos bibliométricos aplicados exclusivamente a estudiar diversidad de perfiles científicos.
 
 Este tipo de revisiones no sólo es una tipología documental, sino que sería la habitual revisión que se incluye en introducciones de artículos científicos y de tesis doctorales. Es también la tipología tradicional en Ciencias Sociales y Humanidades.
 
@@ -38,11 +38,21 @@ La revisión sistemática sigue un **protocolo explícito y reproducible**: defi
 
 ## Meta-análisis
 
-El meta-análisis incorpora técnicas estadísticas para **combinar cuantitativamente los resultados** de múltiples estudios. Requiere que los estudios incluidos sean suficientemente homogéneos en diseño y medidas de resultado. También está muy dirigida la metodología a través de PRISMA.
+El meta-análisis incorpora técnicas estadísticas para **combinar cuantitativamente los resultados** de múltiples estudios. Requiere que los estudios incluidos sean suficientemente homogéneos en diseño y medidas de resultado.
 
-**Limitaciones:** si los estudios primarios tienen sesgos o son heterogéneos, el meta-análisis los amplifica.
+Algunos ejemplos del uso de meta-análisis en Ciencias Sociales:
 
-<!-- Nota: esta sección es breve (heredada de v1). Si el tiempo lo permite, se puede ampliar con un ejemplo, pero no es un hueco crítico. -->
+- [Brouwer et al. (1999)](https://doi.org/10.1007/s101130050007) sobre valoración contingente de humedales
+
+- [Barrio y Loureiro (2010)](https://www.sciencedirect.com/science/article/abs/pii/S0921800909004650) sobre valoración de bosques.
+
+::: nota
+**¿Qué es una meta-regresión?** Es la técnica estadística central del meta-análisis: una regresión donde cada observación es un *estudio* (o una estimación dentro de un estudio, p. ej. un valor de disposición a pagar), la variable dependiente es el resultado que se quiere sintetizar (el efecto, el valor monetario, etc.) y las variables independientes son características metodológicas y contextuales de cada estudio (año, método de valoración, tamaño muestral, país, tipo de bien valorado...). Permite explicar por qué varían los resultados entre estudios y predecir un valor para un contexto nuevo — la base del *benefit transfer*.
+:::
+
+A diferencia de PRISMA (pensado originalmente para revisiones clínicas), el protocolo de referencia específico para meta-análisis en economía es el de la red **MAER-Net**, [Stanley et al. (2013)](https://doi.org/10.1111/joes.12008), actualizado en [Havránek et al. (2020)](https://doi.org/10.1111/joes.12363), que además de la búsqueda sistemática (donde PRISMA sigue siendo útil) cubre aspectos propios de la meta-regresión económica: sesgo de publicación, significancia económica (no solo estadística) y transformación de coeficientes entre estudios para hacerlos comparables.
+
+**Limitaciones:** si los estudios primarios tienen sesgos o son heterogéneos, el meta-análisis los amplifica. En el caso específico del benefit transfer, además, se pierde el detalle contextual de cada valoración original al agregar — el propio "error de transferencia" es objeto de estudio en la literatura.
 
 ## Otras tipologías: Scoping review, mapping review
 
@@ -74,9 +84,9 @@ Vamos a ver dos ejemplos concretos de revisiones narrativas. Ambas ilustran cóm
 
 Esta revisión cubre 246 publicaciones sobre métodos bibliométricos para estudiar el género en ciencia a lo largo de 30 años. Los autores eligen explícitamente la revisión **narrativa** por varias razones:
 
--   El campo es metodológicamente heterogéneo: combinar estudios con diseños muy distintos en un protocolo sistemático habría forzado exclusiones arbitrarias.
--   El objetivo es **organizar y sintetizar** un campo amplio, no responder a una pregunta clínica acotada.
--   La revisión aporta valor añadido identificando gaps metodológicos y proponiendo una agenda futura — algo que PRISMA no facilita.
+- El campo es metodológicamente heterogéneo: combinar estudios con diseños muy distintos en un protocolo sistemático habría forzado exclusiones arbitrarias.
+- El objetivo es **organizar y sintetizar** un campo amplio, no responder a una pregunta clínica acotada.
+- La revisión aporta valor añadido identificando gaps metodológicos y proponiendo una agenda futura — algo que PRISMA no facilita.
 
 Aspectos a destacar: estructura temática en dos grandes bloques (metodología → hallazgos), uso de tablas comparativas para sintetizar métodos y resultados, y declaración explícita del alcance temporal y temático en la introducción.
 
@@ -84,8 +94,8 @@ Aspectos a destacar: estructura temática en dos grandes bloques (metodología �
 
 Esta revisión examina más de 250 estudios sobre métodos infométricos para estudiar la diversidad en la fuerza laboral científica. También es narrativa, y la justificación es similar:
 
--   Se trata de un campo con tradición propia en sociología de la ciencia, cienciometría y política científica — imponer PRISMA habría excluido literatura clave de algunas de estas tradiciones.
--   La estructura se organiza por **áreas temáticas** (fuentes de datos, características individuales, contexto, dinámica de equipos), no por criterios de inclusión/exclusión.
--   Las tablas comparativas (como la Tabla 1 comparando revisiones previas) sustituyen al diagrama de flujo PRISMA como herramienta de transparencia.
+- Se trata de un campo con tradición propia en sociología de la ciencia, cienciometría y política científica — imponer PRISMA habría excluido literatura clave de algunas de estas tradiciones.
+- La estructura se organiza por **áreas temáticas** (fuentes de datos, características individuales, contexto, dinámica de equipos), no por criterios de inclusión/exclusión.
+- Las tablas comparativas (como la Tabla 1 comparando revisiones previas) sustituyen al diagrama de flujo PRISMA como herramienta de transparencia.
 
 <!-- Nota de tiempo: este bloque reutiliza el 01-intro.Rmd de v1 casi al completo (incluidos los casos reales, por decisión explícita). Si 20 min se quedan cortos, los casos reales son lo primero recortable a "cita rápida" sin desarrollo. -->

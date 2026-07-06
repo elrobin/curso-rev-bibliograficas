@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Bloque 5 Proceso de lectura | Técnicas esenciales para preparar una revisión de la literatura</title>
+  <title>B VOSviewer: Visualización temática | Técnicas esenciales para preparar una revisión de la literatura</title>
   <meta name="description" content="Versión de julio de 2026 para el curso organizado por GECOS, de la Universidad de Salamanca" />
   <meta name="generator" content="bookdown 0.46 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Bloque 5 Proceso de lectura | Técnicas esenciales para preparar una revisión de la literatura" />
+  <meta property="og:title" content="B VOSviewer: Visualización temática | Técnicas esenciales para preparar una revisión de la literatura" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Versión de julio de 2026 para el curso organizado por GECOS, de la Universidad de Salamanca" />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Bloque 5 Proceso de lectura | Técnicas esenciales para preparar una revisión de la literatura" />
+  <meta name="twitter:title" content="B VOSviewer: Visualización temática | Técnicas esenciales para preparar una revisión de la literatura" />
   
   <meta name="twitter:description" content="Versión de julio de 2026 para el curso organizado por GECOS, de la Universidad de Salamanca" />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="búsqueda-y-selección.html"/>
-<link rel="next" href="organización-síntesis-y-escritura.html"/>
+<link rel="prev" href="zotero.html"/>
+<link rel="next" href="notebooklm.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -243,97 +243,151 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="proceso-de-lectura" class="section level1 hasAnchor" number="5">
-<h1><span class="header-section-number">Bloque 5</span> Proceso de lectura<a href="proceso-de-lectura.html#proceso-de-lectura" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>No todos los artículos de un corpus merecen el mismo nivel de atención. Una gestión eficiente del tiempo de lectura implica distinguir dos velocidades:</p>
-<div id="lectura-en-dos-velocidades" class="section level2 hasAnchor" number="5.1">
-<h2><span class="header-section-number">5.1</span> Lectura en dos velocidades<a href="proceso-de-lectura.html#lectura-en-dos-velocidades" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<!-- Nota de renombrado: en v1 la columna se llamaba "Lectura de cribado". Por decisión explícita, "Lectura dirigida" = la misma "lectura de cribado" (título, abstract, conclusiones para decidir relevancia), solo cambia el nombre. No es contenido nuevo. -->
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Lectura dirigida</th>
-<th>Lectura profunda</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Título, abstract y conclusiones</td>
-<td>Texto completo, incluyendo metodología, resultados y discusión</td>
-</tr>
-<tr class="even">
-<td><strong>Objetivo:</strong> decidir si el artículo es relevante para la pregunta de investigación</td>
-<td><strong>Objetivo:</strong> extraer datos, evaluar calidad metodológica, comprender argumentos. Reservada para los artículos que superan la lectura dirigida</td>
-</tr>
-<tr class="odd">
-<td><strong>Tiempo estimado:</strong> 2-5 minutos por artículo</td>
-<td><strong>Tiempo estimado:</strong> 30-90 minutos por artículo</td>
-</tr>
-</tbody>
-</table>
-<p>El análisis con VOSviewer y NotebookLM (ver Apéndice) ayuda a priorizar qué artículos merecen lectura profunda y cuáles pueden quedar en lectura dirigida.</p>
-<div id="cómo-abordar-la-lectura-profunda-lectura-por-pasadas" class="section level3 hasAnchor" number="5.1.1">
-<h3><span class="header-section-number">5.1.1</span> Cómo abordar la lectura profunda: lectura por pasadas<a href="proceso-de-lectura.html#c%C3%B3mo-abordar-la-lectura-profunda-lectura-por-pasadas" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>“Texto completo” no significa leer de principio a fin en una sola sesión. Una técnica extendida en metodología de investigación es leer en pasadas sucesivas, ganando profundidad solo cuando el artículo lo justifica:</p>
+<div id="vosviewer" class="section level1 hasAnchor" number="9">
+<h1><span class="header-section-number">B</span> VOSviewer: Visualización temática<a href="vosviewer.html#vosviewer" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><img src="images/vosviewer.png" /></p>
+<p>VOSviewer es una herramienta gratuita desarrollada por el Centre for Science and Technology Studies (CWTS) de la Universidad de Leiden para la <strong>construcción y visualización de redes bibliométricas</strong>. Permite representar visualmente la estructura intelectual de un campo de investigación a partir de los metadatos de un corpus bibliográfico.</p>
+<p>A diferencia de NotebookLM, que analiza el <em>contenido</em> de los textos, VOSviewer analiza las <em>relaciones entre elementos bibliométricos</em>: términos, autores, revistas, referencias. Es una herramienta complementaria, no alternativa.</p>
+<p>Descarga gratuita: <a href="https://www.vosviewer.com">vosviewer.com</a></p>
+<p>VOSviewer puede construir varios tipos de redes. Para este curso nos centraremos en la más útil para revisiones en ciencias sociales:</p>
 <ul>
-<li><strong>Pasada 1:</strong> título, abstract, figuras/tablas y conclusiones: ¿vale la pena seguir? 🤔</li>
-<li><strong>Pasada 2:</strong> metodología y resultados en detalle.</li>
-<li><strong>Pasada 3 (solo si el artículo es clave para tu revisión):</strong> reconstruir el argumento completo y revisar las referencias propias del autor.</li>
+<li><p><strong>Co-ocurrencia de términos.</strong> Establece relaciones entre términos en base a las veces que aparecen de manera conjunta en distintos documentos.</p></li>
+<li><p><strong>Co-autoría.</strong> Permite analizar redes de colaboración entre autores en base a su co-ocurrencia en distintos documentos.</p></li>
+<li><p><strong>Co-citación.</strong> Dos artículos estarán relacionados entre sí si son citados con frecuencia de manera conjunta en otros trabajos.</p></li>
+<li><p><strong>Acoplamiento bibliográfico:</strong> Dos artículos estarán relacionados entre sí, si tienden a citar en su listado de referencias los mismos trabajos.</p></li>
 </ul>
-<p>Otra opción es lo que hizo <a href="https://doi.org/10.5281/zenodo.20643687">Forchino et al., (2026)</a>, donde emplea técnicas bibliométricas para hacer una descripción general del campo y luego selecciona un <em>core</em> de documentos que analiza de manera cualitativa. Lo que ella llama un <strong>diseño mixto secuencial</strong>.</p>
-<div class="nota">
-<p>👣 La mayoría de artículos de tu corpus solo necesitarán la Pasada 1 o 2. Reservar la Pasada 3 para un puñado de referencias centrales es lo que hace manejable la lectura profunda de un corpus grande.</p>
+<div id="importación-de-datos-en-vosviewer" class="section level2 hasAnchor" number="9.1">
+<h2><span class="header-section-number">B.1</span> Importación de datos en VOSviewer<a href="vosviewer.html#importaci%C3%B3n-de-datos-en-vosviewer" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>VOSviewer trabaja con datos bibliográficos y texto en distintos formatos. Puede trabajar con tres tipos de ficheros esencialmente:</p>
+<ol style="list-style-type: decimal">
+<li><strong>Ficheros extraídos desde una base de datos bibliográfica.</strong> Soporta bases de datos tipo Web of Science, Scopus, OpenAlex o Dimensions entre otras. En algunos casos incluso permite trabajar directamente desde la API de la base de datos.</li>
+<li><strong>Ficheros exportados de un gestor bibliográfico.</strong> También permite trabajar con ficheros en formato .ris o .bib extraídos por ejemplo, de Zotero.</li>
+<li><strong>Texto plano.</strong> Para mapas de co-palabras se puede trabajar directamente con ficheros de texto donde cada línea representa un documento.</li>
+</ol>
+<div id="nuestro-set-de-datos" class="section level3 hasAnchor" number="9.1.1">
+<h3><span class="header-section-number">B.1.1</span> Nuestro set de datos<a href="vosviewer.html#nuestro-set-de-datos" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Para esta pequeña práctica he preparado un set de datos de 1360 documentos extraídos de la Web of Science y relacionados con el uso responsable de la IA en el entorno universitario. Esta es la estrategia de búsqueda que he empleado:</p>
+<pre><code>(generative AI OR ChatGPT OR LLM) AND (&quot;higher education&quot; OR universit*) AND (ethic* OR “pedagogy”)</code></pre>
+<p><a href="data/savedrecs.txt">📂Descarga del primer fichero</a> - <a href="data/savedrecs%20(1).txt">📂Descarga del segundo fichero</a></p>
+<p>Una vez descargados, toca cargarlos en VOSviewer:</p>
+<ol style="list-style-type: decimal">
+<li><p>Abre el programa y dale a la opción <code>Create</code>, en el menú de la izquierda.</p></li>
+<li><p>En el menú que aparece, selecciona la opción <code>Create a map based on bibliographic data</code> y luego <code>Read data from bibliographic database files</code>.</p>
+<p><img src="images/create-map.jpg" /></p></li>
+<li><p>Finalmente, carga los dos ficheros de manera conjunta utilizando el atajo <code>Ctrl</code> del teclado.</p></li>
+</ol>
+</div>
+<div id="creación-de-un-mapa-de-co-ocurrencia-de-términos" class="section level3 hasAnchor" number="9.1.2">
+<h3><span class="header-section-number">B.1.2</span> Creación de un mapa de co-ocurrencia de términos<a href="vosviewer.html#creaci%C3%B3n-de-un-mapa-de-co-ocurrencia-de-t%C3%A9rminos" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Analiza con qué frecuencia dos términos aparecen juntos en los títulos y/o abstracts del corpus. Los términos que co-ocurren frecuentemente aparecen próximos en el mapa y forman <strong>clusters temáticos</strong> — agrupaciones de conceptos que tienden a aparecer juntos en la literatura.</p>
+<p><strong>Para qué sirve:</strong> identificar los grandes temas del campo, detectar subtemas emergentes y visualizar la estructura conceptual de la literatura sobre</p>
+<ol style="list-style-type: decimal">
+<li>Selecciona tipo de análisis: <em>Co-occurrence</em> → <em>All keywords</em> (o <em>Title and abstract words</em>)</li>
+<li>Establece un umbral mínimo de ocurrencias (nosotros trabajaremos con la opción por defecto)</li>
+<li>VOSviewer mostrará cuántos términos cumplen el umbral → Una vez confirmemos, creará el mapa</li>
+</ol>
+<div id="aviso-vosviewer">
+<p><strong>Muy importante:</strong> Como habrás observado, los términos que más veces aparecen y controlan la red son los que empleé en la estrategia de búsqueda. Esto puede ser problemático, al distorsionar la red. Para evitar esto, podemos deseleccionar estos términos antes de crear el mapa.</p>
 </div>
 </div>
 </div>
-<div id="toma-de-notas" class="section level2 hasAnchor" number="5.2">
-<h2><span class="header-section-number">5.2</span> Toma de notas<a href="proceso-de-lectura.html#toma-de-notas" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Una buena toma de notas durante la lectura profunda es la base de una síntesis de calidad. Algunos principios:</p>
-<ul>
-<li>Tomar notas en tus propias palabras, no copiando frases del artículo</li>
-<li>Registrar siempre la referencia completa junto a cada nota</li>
-<li>Distinguir entre lo que dice el autor y tu propia interpretación</li>
-<li>Anotar preguntas y dudas que surjan durante la lectura</li>
-<li>Registrar las limitaciones que el propio autor reconoce</li>
-</ul>
-<p><strong>Herramientas útiles:</strong></p>
-<ul>
-<li><p>Zotero permite añadir notas a cada referencia, lo que mantiene todo centralizado (ver Apéndice)</p></li>
-<li><p>NotebookLM permite construir notas acumulativas vinculadas al corpus (ver Apéndice)</p></li>
-<li><p>Una hoja de extracción de datos (en Excel o Google Sheets) para sistematizar la información entre artículos. Un ejemplo mínimo de columnas:</p>
-<table>
-<colgroup>
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Autor/Año</th>
-<th>Método</th>
-<th>Muestra</th>
-<th>Hallazgo principal</th>
-<th>Limitación declarada</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Ejemplo (2023)</td>
-<td>Encuesta transversal</td>
-<td>N=340</td>
-<td>Correlación positiva X-Y</td>
-<td>Muestra no representativa</td>
-</tr>
-</tbody>
-</table></li>
-</ul>
+<div id="creación-de-un-tesauro-y-limpieza-de-datos" class="section level2 hasAnchor" number="9.2">
+<h2><span class="header-section-number">B.2</span> Creación de un tesauro y limpieza de datos<a href="vosviewer.html#creaci%C3%B3n-de-un-tesauro-y-limpieza-de-datos" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Este paso es <strong>imprescindible</strong> y frecuentemente omitido. VOSviewer extrae todos los términos que superan el umbral, pero muchos de ellos son irrelevantes: artículos, preposiciones, términos genéricos (<em>study</em>, <em>analysis</em>, <em>results</em>, <em>paper</em>) o variantes del mismo concepto (<em>student</em> / <em>students</em>).</p>
+<div id="limpieza-manual" class="section level3 hasAnchor" number="9.2.1">
+<h3><span class="header-section-number">B.2.1</span> Limpieza manual<a href="vosviewer.html#limpieza-manual" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>VOSviewer genera un listado de todos los términos seleccionados. Antes de visualizar, se puede desactivar los términos irrelevantes desmarcando la casilla correspondiente.</p>
+<p>Términos que habitualmente conviene desactivar: - Términos muy genéricos: <em>study</em>, <em>research</em>, <em>analysis</em>, <em>result</em>, <em>paper</em>, <em>approach</em> - Variantes de términos ya incluidos: si está <em>student</em>, desactivar <em>students</em> - Términos que corresponden al propio tema de búsqueda y aparecerán en todo el corpus</p>
+</div>
+<div id="limpieza-asistida-por-llm-vosviewer" class="section level3 hasAnchor" number="9.2.2">
+<h3><span class="header-section-number">B.2.2</span> Limpieza asistida por LLM (VOSviewer)<a href="vosviewer.html#limpieza-asistida-por-llm-vosviewer" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Para corpus grandes con centenares de términos, exportar la lista de términos como CSV y usar un LLM para sugerir cuáles eliminar o unificar:</p>
+<pre><code>Tengo una lista de términos extraídos automáticamente de los títulos
+y abstracts de un corpus bibliográfico sobre [TEMA A ANALIZAR].
+Necesito limpiarla antes de visualizar la red de co-ocurrencias.
 
+Por favor, identifica:
+1. Términos genéricos que no aportan información temática
+2. Variantes del mismo concepto que deberían unificarse
+3. Términos que parecen errores de extracción
+
+Lista de términos:
+[PEGAR LISTA]</code></pre>
+<p>El LLM sugiere; el investigador decide. Algunos términos que el modelo propone eliminar pueden ser relevantes en el contexto específico del campo.</p>
+</div>
+<div id="creación-de-un-tesauro" class="section level3 hasAnchor" number="9.2.3">
+<h3><span class="header-section-number">B.2.3</span> Creación de un tesauro<a href="vosviewer.html#creaci%C3%B3n-de-un-tesauro" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Antes de crear el mapa, es posible añadir un tesauro elaborado por nosotros. Este tesauro sirve realmente para unificar términos sin <em>tocar</em> los datos brutos de nuestro fichero. El tesauro debe ser un fichero txt con dos columnas separadas por tabulador:</p>
+<ul>
+<li><p><strong>label</strong>.Incluye el término original de nuestro set de datos</p></li>
+<li><p><strong>replace by.</strong> Incluye el término normalizado</p></li>
+</ul>
+<p>Para crear una tesauro, hay que extraer primero todos los términos que ha generado VOSviewer. Para ello, cuando te muestra VOSviewer el listado de términos, pincha con el botón derecho y en la opción <code>Export selected keywords</code> y guardalo en un txt.</p>
+<p><img src="images/terminos.jpg" width="419" /></p>
+<p>Después, puedes adjuntar este fichero a un chatbot tipo ChatGPT, Gemini o Claude y lanzar el siguiente prompt:</p>
+<pre><code>Actúa como un experto en bibliometría. Te voy a pasar una lista de palabras clave extraídas de VOSviewer. Tu tarea es crear un archivo de tesauro. Identifica términos que significan lo mismo (ej: &#39;artificial intelligence&#39; y &#39;ai&#39;, o &#39;chatgpt&#39; y &#39;chat-gpt&#39;) y variaciones de plural/singular.
+
+Dame el resultado exclusivamente en una tabla con dos columnas:
+
+label: el término original.
+
+replace by: el término único por el que se debe sustituir.
+
+Mantén los términos técnicos académicos más precisos.</code></pre>
+<p>Guarda los resultados en un txt y vuelve a crear el mapa. En el momento de elegir el tipo de mapa, añade tu nuevo tesauro en el apartado correspondiente:</p>
+<p><img src="images/tesauro.jpg" /></p>
+</div>
+</div>
+<div id="interpretación-de-clusters" class="section level2 hasAnchor" number="9.3">
+<h2><span class="header-section-number">B.3</span> Interpretación de clusters<a href="vosviewer.html#interpretaci%C3%B3n-de-clusters" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Una vez limpio el mapa, VOSviewer muestra los términos agrupados en clusters codificados por color. Cada cluster representa una <strong>constelación temática</strong> — un conjunto de conceptos que tienden a aparecer juntos en la literatura.</p>
+<div id="cómo-leer-el-mapa" class="section level3 hasAnchor" number="9.3.1">
+<h3><span class="header-section-number">B.3.1</span> Cómo leer el mapa<a href="vosviewer.html#c%C3%B3mo-leer-el-mapa" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><strong>Proximidad:</strong> cuanto más cercanos dos términos, más frecuentemente co-ocurren.</li>
+<li><strong>Tamaño del nodo:</strong> cuanto más grande, más frecuente es ese término en el corpus.</li>
+<li><strong>Color:</strong> indica el cluster al que pertenece el término (asignado automáticamente por el algoritmo).</li>
+<li><strong>Distancia entre clusters:</strong> clusters alejados entre sí representan subtemas relativamente independientes.</li>
+</ul>
+</div>
+<div id="nombrar-los-clusters" class="section level3 hasAnchor" number="9.3.2">
+<h3><span class="header-section-number">B.3.2</span> Nombrar los clusters<a href="vosviewer.html#nombrar-los-clusters" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>VOSviewer no nombra los clusters — esa es tarea del investigador. Para nombrar cada cluster:</p>
+<ol style="list-style-type: decimal">
+<li>Identificar los 3-5 términos con nodos más grandes dentro del cluster</li>
+<li>Leer algunos de los artículos más representativos de ese cluster</li>
+<li>Proponer un nombre que capture la orientación temática del conjunto</li>
+</ol>
+</div>
+<div id="fortalezas-del-análisis-de-co-ocurrencia" class="section level3 hasAnchor" number="9.3.3">
+<h3><span class="header-section-number">B.3.3</span> Fortalezas del análisis de co-ocurrencia<a href="vosviewer.html#fortalezas-del-an%C3%A1lisis-de-co-ocurrencia" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li>Permite visualizar la estructura temática de un campo de forma rápida</li>
+<li>Identifica subtemas que podrían no ser evidentes en una lectura lineal</li>
+<li>Útil para detectar términos puente entre clusters (posibles áreas interdisciplinares)</li>
+<li>Reproducible: dado el mismo corpus y los mismos parámetros, el mapa es el mismo</li>
+</ul>
+</div>
+<div id="limitaciones-del-análisis-de-co-ocurrencia" class="section level3 hasAnchor" number="9.3.4">
+<h3><span class="header-section-number">B.3.4</span> Limitaciones del análisis de co-ocurrencia<a href="vosviewer.html#limitaciones-del-an%C3%A1lisis-de-co-ocurrencia" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><strong>Depende de la calidad de los abstracts y palabras clave:</strong> si los datos son pobres o inconsistentes, el mapa lo reflejará.</li>
+<li><strong>No captura el significado:</strong> dos términos pueden co-ocurrir porque se contrastan, no porque estén relacionados positivamente.</li>
+<li><strong>Sensible al corpus:</strong> pequeños cambios en el corpus (añadir o quitar 50 referencias) pueden cambiar significativamente la estructura de los clusters.</li>
+<li><strong>El algoritmo de clustering es automático:</strong> los clusters son una aproximación estadística, no categorías conceptuales establecidas.</li>
+<li><strong>Sesgo hacia términos en inglés:</strong> si el corpus mezcla idiomas, los términos en español o en otros idiomas quedarán subrepresentados.</li>
+</ul>
+</div>
+</div>
+<div id="otras-herramientas-similares-análisis-avanzados" class="section level2 hasAnchor" number="9.4">
+<h2><span class="header-section-number">B.4</span> Otras herramientas similares: análisis avanzados<a href="vosviewer.html#otras-herramientas-similares-an%C3%A1lisis-avanzados" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>También en VOSviewer existen análisis más avanzados que quedan fuera del alcance de este curso:</p>
+<ul>
+<li><strong>Overlay maps:</strong> mapas que añaden una variable temporal (año de publicación) o de impacto (número de citas) al mapa de co-ocurrencias, permitiendo visualizar la evolución del campo.</li>
+<li><strong>Edición manual de clusters:</strong> reagrupación manual de nodos para ajustar la clasificación automática.</li>
+<li><strong>Análisis de co-citación y acoplamiento bibliográfico:</strong> para identificar la estructura intelectual del campo con mayor precisión.</li>
+</ul>
+<p>Estos análisis se desarrollarán en sesiones posteriores para quienes quieran profundizar en el análisis bibliométrico. <em>(Bibliometrix se presenta en el Bloque 3; aquí puedes ampliar con el detalle práctico si lo necesitas.)</em></p>
 </div>
 </div>
             </section>
@@ -341,8 +395,8 @@
           </div>
         </div>
       </div>
-<a href="búsqueda-y-selección.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="organización-síntesis-y-escritura.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="zotero.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="notebooklm.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

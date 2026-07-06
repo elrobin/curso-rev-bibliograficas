@@ -1,20 +1,26 @@
 # (APPENDIX) Apéndices {-}
 
-# Herramientas de apoyo: VOSviewer, NotebookLM y Zotero
+# Herramientas de apoyo: VOSviewer, NotebookLM y Zotero {-}
 
-> **Nota:** Este apéndice recoge en detalle las herramientas que en la v1 del curso ocupaban bloques completos (Zotero, VOSviewer, NotebookLM). En la edición de 2 horas se mencionan brevemente en el Bloque 3, y este material queda como referencia para trabajarlo de forma autónoma o en una sesión ampliada.
+> **Nota:** Este apéndice recoge en detalle herramientas que pueden ser especialmente útiles en la elaboración y análisis de resultados de cara a una revisión bibliográfica.
 
-## Zotero: instalación y configuración básica
+| Apartado | Descripción |
+|----------|-------------|
+| A | Zotero: Gestión bibliográfica |
+| B | VosViewer: Visualización temática |
+| C | NotebookLM para cribado de lecturas |
+
+# Zotero: Gestión bibliográfica {#zotero}
 
 Zotero es un gestor de referencias gratuito y de código abierto que permite importar, organizar y exportar referencias bibliográficas. Es la herramienta central de este flujo de trabajo.
 
-### Instalación
+## Instalación
 
 1.  Descargar Zotero desde [zotero.org](https://www.zotero.org/download/)
 2.  Instalar el conector para el navegador (disponible para Chrome y Firefox) — permite guardar referencias directamente desde la web
 3.  Crear una cuenta gratuita en zotero.org (permite sincronización y hasta 300 MB de almacenamiento gratuito)
 
-### Configuración recomendada para revisiones sistemáticas
+## Configuración recomendada para revisiones sistemáticas
 
 Antes de importar, crear una **biblioteca de grupo separada** para cada revisión. Esto facilita el conteo de registros por base de datos y mantiene la biblioteca personal limpia.
 
@@ -27,7 +33,7 @@ Dentro de la biblioteca, crear una colección por base de datos:
    📂 Google Scholar
 ```
 
-## Deduplicación en Zotero
+## Deduplicación de registros
 
 Al importar desde varias bases de datos, es inevitable que algunas referencias aparezcan en más de una. La deduplicación elimina estas repeticiones.
 
@@ -77,7 +83,7 @@ El LLM no toma decisiones por el investigador — sugiere candidatos a revisar. 
 **También existen plugins de IA para Zotero**. Son opciones a explorar para flujos de trabajo más avanzados, aunque requieren clave de API propia o suscripción. No he llegado a probarlos
 :::
 
-## Qué es VOSviewer
+# VOSviewer: Visualización temática {#vosviewer}
 
 ![](images/vosviewer.png)
 
@@ -243,13 +249,13 @@ También en VOSviewer existen análisis más avanzados que quedan fuera del alca
 
 Estos análisis se desarrollarán en sesiones posteriores para quienes quieran profundizar en el análisis bibliométrico. *(Bibliometrix se presenta en el Bloque 3; aquí puedes ampliar con el detalle práctico si lo necesitas.)*
 
-## Qué es NotebookLM
+# NotebookLM para cribado de lecturas {#notebooklm}
 
 NotebookLM es una herramienta de Google basada en modelos de lenguaje (actualmente Gemini) diseñada para trabajar con documentos propios. A diferencia de un chatbot genérico, NotebookLM **solo responde basándose en las fuentes que tú le proporcionas** — no accede a internet ni a su base de conocimiento general para responder preguntas sobre el contenido de tus documentos.
 
 Esto lo convierte en una herramienta especialmente útil para revisiones bibliográficas: permite interrogar un corpus de textos de forma sistemática sin el riesgo de que el modelo "rellene" con información externa no verificada.
 
-### Acceso y licencia
+## Acceso y licencia
 
 NotebookLM es gratuito con una cuenta de Google. La Universidad de Granada ofrece acceso a **Google Workspace for Education** (Go UGR) con cuentas `@go.ugr.es`, lo que incluye acceso a NotebookLM con las garantías de privacidad del acuerdo institucional con Google. Se recomienda usar siempre la cuenta institucional para trabajar con documentos de investigación.
 
@@ -395,28 +401,6 @@ NotebookLM incluye **citas con número de fuente** en sus respuestas, lo que per
 -   Revisar siempre las citas en el documento original antes de usar una afirmación
 -   Tratar los outputs como borradores de trabajo, nunca como texto final
 -   Documentar qué preguntas se lanzaron y qué respuestas se obtuvieron (trazabilidad del proceso)
-
-## Ejercicio comparativo: VOSviewer vs. NotebookLM
-
-Este ejercicio pone en diálogo los resultados de las dos secciones anteriores de este apéndice.
-
-**Procedimiento:**
-
-1.  Anotar los clusters identificados en VOSviewer con sus términos principales
-2.  Volver a NotebookLM y pedir explícitamente una organización temática del corpus:
-
-```
-Organiza las fuentes cargadas en grupos temáticos. Para cada grupo,  indica qué fuentes pertenecen a él y qué conceptos lo caracterizan.
-```
-
-3.  Comparar las agrupaciones de ambas herramientas
-
-**Preguntas para la discusión:**
-
--   ¿Coinciden los clusters de VOSviewer con los grupos temáticos de NotebookLM?
--   ¿Dónde divergen? ¿A qué puede deberse?
--   ¿Qué información aporta cada herramienta que la otra no aporta?
--   ¿Cómo reportarías estos resultados en la sección de métodos de una revisión?
 
 ::: nota
 **La divergencia es información.** Si VOSviewer y NotebookLM sugieren agrupaciones diferentes, no significa que una esté "equivocada". Cada herramienta captura una dimensión distinta del corpus: VOSviewer las co-ocurrencias estadísticas de términos, NotebookLM la interpretación semántica del contenido. Las diferencias merecen atención y análisis.

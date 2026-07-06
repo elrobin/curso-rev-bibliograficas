@@ -2,29 +2,40 @@
 
 ## La sobrecarga informativa
 
-<!-- TODO (PENDIENTE DE REDACTAR - sí o sí): esta sección es nueva, no existía en v1.
-Ideas para desarrollarla, según lo hablado:
-- Encuadre amplio: crecimiento exponencial de la literatura científica en general (no solo de revisiones), imposibilidad material de leerlo todo.
-- Cómo esto obliga a tener filtros y estrategias (de ahí el resto del curso).
-- Puede enlazar con el párrafo de abajo (ya reutilizado de v1), que se centra específicamente en el crecimiento de REVISIONES por el abaratamiento vía LLMs — es un caso particular del problema general, no el problema en sí.
-- Si tienes cifras/gráficos propios sobre crecimiento de publicaciones, este es el sitio. -->
+El sistema de comunicación científica lleva ya un tiempo en crisis:
 
-⚠️ **PENDIENTE: redactar el encuadre general de sobrecarga informativa antes del párrafo siguiente.**
+- Un sistema de publicación muy costoso y lento
+- Un sistema de incentivos para la publicación muy cuestionado
 
-En los últimos años, **el número de revisiones bibliográficas publicadas ha crecido de forma exponencial**. Este crecimiento se ha acelerado notablemente con la irrupción de los modelos de lenguaje (LLMs), que han reducido drásticamente el coste de producir textos académicos de apariencia solvente.
+|  |  |
+|----|----|
+| Crecimiento exponencial de publicaciones | [![](images/science.jpg)](https://doi.org/10.1126/science.abc7839) |
+| Agotamiento del sistema de revisión por pares | [![](images/elpais.jpg)](https://elpais.com/opinion/2026-07-04/una-ciencia-sin-filtros.html) |
 
--   Hay un agotamiento por parte de las revistas, ya que el número de envíos que reciben se ha incrementado enormemente.
+**¿Son necesarias las revisiones bibliográficas?**
 
--   Si no hay un **valor añadido real** detrás de la revisión, estará abocada al fracaso. 😥
+| ✅ Más que nunca | ⛔ No más *please* |
+|----|----|
+| Excesivo número de publicación | Una nueva publicación no es la respuesta a demasiadas publicaciones |
+| Fin de la revista como nodo vehicular | La calidad de muchas revisiones es cuanto menos dudosa |
+| Necesidad de cribado | La IAG puede automatizar todo esto |
+
+Esta situación ambivalente deja: una respuesta ambivalente:
+
+- Hay un agotamiento por parte de las revistas, ya que el número de revisiones sistemáticas que reciben se ha incrementado enormemente.
+
+- Si no hay un **valor añadido real** detrás de la revisión, estará abocada al fracaso. 😥
 
 Esto tiene implicaciones directas para quien quiere hacer una revisión hoy:
 
--   No basta con identificar un tema y sintetizar lo que se ha escrito sobre él.
--   Es necesario **justificar explícitamente la necesidad** de la revisión: ¿qué *gap* cubre? ¿qué pregunta responde que no estaba respondida?
--   La elección del tipo de revisión debe estar **al servicio de la pregunta**, no al revés.
--   **Aplicar un protocolo como PRISMA sin una pregunta sólida detrás produce revisiones vacías, aunque formalmente correctas**.
+- No basta con identificar un tema y sintetizar lo que se ha escrito sobre él.
+- Es necesario **justificar explícitamente la necesidad** de la revisión: ¿qué *gap* cubre? ¿qué pregunta responde que no estaba respondida?
+- La elección del tipo de revisión debe estar **al servicio de la pregunta**, no al revés.
+- **Aplicar un protocolo como PRISMA sin una pregunta sólida detrás produce revisiones vacías, aunque formalmente correctas**.
 
+::: aviso
 ℹ️ **No hay atajos ni trucos. Sí hay flujos de trabajo eficientes y uso creativo de las herramientas y la tecnología.**
+:::
 
 ## Tipos de revisión según objetivo
 

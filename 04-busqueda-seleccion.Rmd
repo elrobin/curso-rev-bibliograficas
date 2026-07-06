@@ -4,24 +4,63 @@ Antes de ponernos a buscar, conviene tener claro el objetivo: no se trata de rec
 
 ## Acotación del tema
 
-<!-- TODO (PENDIENTE DE REDACTAR - sí o sí): esta sección es nueva, no existía como tal en v1.
-Semilla ya disponible en el material (Bloque 3, Protocolo de trabajo): "Pregunta de investigación en formato PICo u otro marco estructurado". Aquí es donde desarrollarlo con detalle, antes de pasar a fuentes/diseño de búsqueda.
-Ideas para desarrollarla:
-- Cómo pasar de un tema amplio a una pregunta acotada (marco PICO/PECO u otro que uses habitualmente).
-- Criterios de inclusión/exclusión: cuándo definirlos y qué tipo de criterios (temporales, idioma, tipo de documento, metodológicos).
-- Relación con el tipo de revisión elegido en el Bloque 2: una narrativa admite un alcance más laxo; una sistemática exige acotar antes de buscar. -->
+Antes de lanzar una sola búsqueda, conviene fijar por escrito los límites de tu revisión. Todos estos criterios deben derivarse de tu pregunta de investigación, no al revés:
 
-⚠️ **PENDIENTE: redactar esta sección completa (acotación del tema, criterios de inclusión/exclusión).**
+- **Ventana temporal**. ¿Desde cuándo? ¿Existe un evento fundacional del campo (una publicación seminal, un cambio metodológico) que justifique un año de corte? ¿Hasta cuándo? ¿Incluyes preprints o solo publicado?
 
-También considera **qué tipo de revisión** vas a emplear, ya que la estrategia de búsqueda variará según el caso.
+- **Tipología documental**. ¿Solo artículos revisados por pares? ¿Incluyes actas de congreso, capítulos de libro, tesis, literatura gris? Cuanto más aplicada/emergente sea el área, más justificado está ampliar más allá del artículo journal.
 
--   **Revisiones sistemáticas:** Protocolo de trabajo claro y reproducible donde la clave está en la ecuación de búsqueda empleada.
+- **Idioma**. Restringir a inglés es habitual pero introduce sesgo, sobre todo si el tema tiene tradición local (p. ej. economía ambiental en Latinoamérica).
 
--   **Revisiones narrativas:** Protocolo más flexible, aunque no por ello significa que no se permita la introducción de fórmulas innovadoras y transparentes. Si somos rigurosos desde el principio, dejaremos en cada paso rastro documental, *lo que permitirá justificar más adelante si fuera necesario*.
+- **Criterios metodológicos**. ¿Excluyes ciertos diseños de estudio (p. ej. solo cuantitativos, o solo estudios con datos primarios)?
+
+- **Relación con el tipo de revisión** . Una narrativa admite ajustar estos criterios sobre la marcha; una sistemática exige fijarlos a priori y documentarlos.
+
+::: nota
+👣 Regla práctica: si no puedes escribir cada criterio en una frase y justificar por qué existe, probablemente no está lo bastante pensado todavía.
+:::
+
+El **tipo de revisión** que vas a emplear determina la estrategia de búsqueda a seguir.
+
+- **Revisiones sistemáticas:** Protocolo de trabajo claro y reproducible donde la clave está en la ecuación de búsqueda empleada.
+
+- **Revisiones narrativas:** Protocolo más flexible, aunque no por ello significa que no se permita la introducción de fórmulas innovadoras y transparentes. Si somos rigurosos desde el principio, dejaremos en cada paso rastro documental, *lo que permitirá justificar más adelante si fuera necesario*.
 
 Debido a la proliferación de revisiones sistemáticas, en ocasiones algún revisor insiste en indicar la metodología y estrategia de búsqueda. Si no hemos llevado cuenta de ese registro documental, alguna alternativa que he empleado es esta que aquí indico:
 
 [![Descripción de las fuentes empleadas, de González-Salmón et al., 2025](images/Screenshot%202026-04-09%20130844.png)](https://doi.org/10.1002/asi.25012)
+
+### ¿Cómo ajustar el tamaño del corpus bibliográfico?
+
+Una vez tienes una primera ecuación de búsqueda, rara vez el resultado tiene el tamaño adecuado a la primera. Dos escenarios opuestos, dos estrategias:
+
+**Si el corpus es demasiado pequeño (expandir)**:
+
+1.  **Citas y referencias** de los textos ya identificados (snowballing): revisar tanto qué citan (backward) como quién les cita a ellos (forward, vía Google Scholar o WoS "Cited by").
+
+2.  **Palabras clave** de los textos seleccionados: términos que los propios autores usan y que tú no habías anticipado, señal de vocabulario del campo que falta en tu ecuación.
+
+3.  **Uso de tesauros o vocabularios controlados** del área, si existe (p. ej. [EconLit](https://www.aeaweb.org/jel/guide/jel.php)), como fuente adicional de términos, complementaria a las keywords que extraes de los propios textos. Esto es un clásico en el ámbito biomédico con los encabezamientos [MeSH](https://www.nlm.nih.gov/mesh/meshhome.html).
+
+4.  **Revistas núcleo**: identificar qué revistas concentran más publicaciones sobre el tema y revisar sus números/índices directamente, más allá de la ecuación de búsqueda.
+
+::: nota
+Según la **Ley de Bradford**, para cualquier tema de investigación, será un pequeño núcleo de revistas el que concentre alrededor de un tercio de los documentos relevantes. Le sigue una zona más amplia de revistas que produce otro tercio; y una zona aún mayor de revistas dispersas produce el tercio restante. Es la justificación bibliométrica de por qué "buscar en las revistas núcleo" es una estrategia razonable.
+:::
+
+5.  **Criterio de saturación**: sabrás que puedes parar de expandir cuando nuevas búsquedas o nuevas fuentes ya no aporten documentos nuevos relevantes; especialmente útil en revisiones narrativas, donde no hay un punto de corte formal como en una sistemática.
+
+**Si el corpus es demasiado grande (restringir)**:
+
+1.  **Afinar el nivel de detalle**: pasar de buscar en texto completo a título/abstract/keywords, o añadir un segundo bloque de términos con `AND`.
+
+2.  **Bibliographic coupling para identificar el núcleo**: dos documentos están acoplados si citan referencias comunes; los documentos con mayor acoplamiento entre sí suelen ser el núcleo temático real del campo, lo que permite descartar resultados periféricos o ruido. Aquí hay herramientas bibliométricas como [CitNetExplorer](https://www.citnetexplorer.nl) que permiten visualizar la red de citas y aislar clusters de publicaciones *acopladas*.
+
+::: aviso
+**Snowballing vs. bibliographic coupling**: el primero expande (vas hacia fuera desde tu corpus semilla); el segundo restringe (identifica qué parte de tu corpus ya recopilado es realmente núcleo). Se pueden combinar de forma iterativa.
+
+**VOSviewer vs. CitNetExplorer**: no son lo mismo aunque se usen juntos a menudo. VOSviewer mapea co-ocurrencia de términos: de qué habla el corpus. CitNetExplorer estructura la red de citas: cómo se relacionan los documentos entre sí y cuál es su núcleo. Uno responde "qué temas hay", el otro "qué es central".
+:::
 
 ## Selección de fuentes
 
@@ -55,8 +94,18 @@ Debido a la proliferación de revisiones sistemáticas, en ocasiones algún revi
 | Muy útil para campos emergentes o con literatura dispersa | No ofrece operadores booleanos avanzados comparables a WoS/Scopus |
 | Imprescindible para detectar literatura en español no indexada en WoS/Scopus | Los resultados no son reproducibles: varían según el usuario, la sesión y el momento |
 
+### OpenAlex
+
+| Ventajas | Limitaciones |
+|----|----|
+| Completamente gratuito y abierto (datos y API), sin restricción de suscripción institucional | Metadatos de afiliación incompletos o ausentes en una proporción muy alta de registros, especialmente en ciencias sociales y humanidades |
+| Cobertura muy amplia: integra Crossref, PubMed, ORCID, ROR, ISSN-L y otras fuentes en un único grafo de identificadores | Calidad de metadatos desigual: faltan abstracts, referencias o tipo de documento en muchos registros |
+| API abierta y bien documentada, ideal para descargas masivas y análisis reproducibles en R/Python | Identificación del idioma del documento poco fiable — tiende a sobreestimar la proporción de documentos en inglés |
+| Buena cobertura de identificadores (ORCID, DOI, ROR) que facilita el cruce con otras bases | Cobertura de citas comparable a WoS/Scopus en años recientes (2015-2022), pero con salvedades por campo y por región |
+| Adopción creciente como alternativa abierta a bases comerciales, particularmente en el Sur Global | Al ser una base más joven y en constante actualización, la reproducibilidad exacta de una búsqueda puede variar entre extracciones |
+
 ::: nota
-👣 **Recomendación:** Para una revisión en ciencias sociales, combinar WoS + Scopus como fuentes principales y Google Scholar como fuente complementaria para detectar literatura no indexada. Documentar siempre la fecha de búsqueda y la cadena de búsqueda exacta utilizada en cada base de datos.
+👣 **Recomendación:** Para una revisión en ciencias sociales, combinar WoS + Scopus como fuentes principales y Google Scholar + OpenAlex como fuentes complementarias para detectar literatura no indexada. Documentar siempre la fecha de búsqueda y la cadena de búsqueda exacta utilizada en cada base de datos.
 :::
 
 ## Diseño de búsqueda
@@ -73,7 +122,7 @@ Una buena estrategia de búsqueda equilibra **sensibilidad** (no perderse nada r
 
 3.  **Evalúo y analizo los resultados** para valorar la pertinencia de los términos, eliminar y sustituir términos ambiguos, añadir otros términos relacionados, etc. Repito pasos 2 y 3 hasta estar satisfecho con la ecuación de búsqueda y los resultados obtenidos.
 
-::: {#aviso}
+::: aviso
 **Truncamiento:** el asterisco `*` permite recuperar variantes de una raíz. Por ejemplo, `academ*` recupera *academic*, *academics*, *academically*, etc. Si se quiere controlar que varíe una sóla letra, se emplea el `?`
 
 **Campos de búsqueda:** Es importante delimitar también los campos sobre los que se lanza la ecuación de búsqueda. Por ejemplo, `Title-Abstract-Keywords`. Buscar solo en título es más preciso pero puede perder resultados relevantes; buscar en texto completo genera demasiado ruido.
@@ -81,9 +130,9 @@ Una buena estrategia de búsqueda equilibra **sensibilidad** (no perderse nada r
 
 #### Variante A. El uso de ontologías
 
-Una variante interesante, es la de organizar esos términos de búsqueda por niveles y crear nuestra ontología específica para poder *trocear* nuestro corpus bibliográfico por distintos aspectos o conceptos a analizar.
+Una variante interesante, es la de organizar esos términos de búsqueda por niveles y crear nuestra ontología específica para poder *trocear* nuestro corpus bibliográfico por distintos aspectos o conceptos a analizar. Aquí te incluyo un ejemplo del trabajo de [Mir-Planells et al. (2026)](https://doi.org/10.3145/infonomy.26.021), donde usaba un **vocabulario controlado** con el que identificaba distintos conjuntos de documentos en base a búsquedas temáticas y luego *mapeaba* el solapamiento entre los mismos.
 
-![Figura de un trabajo in progress de N. Mir-Planells](images/thirdplace.png){width="614"}
+![](images/thirdplace.png){width="614"}
 
 Aunque supone hacer muchas búsquedas por separado, permite luego analizar relaciones entre términos y conceptos de manera muy visual.
 
@@ -101,21 +150,21 @@ Este mapa está hecho con **VOSviewer** (ver Apéndice). Con esta herramienta po
 
 En estos casos, la rigurosidad y necesidad de protocolo preestablecido no es tan necesaria, por lo que se combinan de manera muy informal diferentes estrategias de búsqueda. Aquí os enumero algunas:
 
--   **Clásica búsqueda en bases de datos**, siguiendo una aproximación similar a la estrategia anterior.
+- **Clásica búsqueda en bases de datos**, siguiendo una aproximación similar a la estrategia anterior.
 
--   **Serendipia**, algo esencial en la ciencia, aunque muchas veces se nos olvide. Y si no, [mírate este paper](https://doi.org/10.1016/j.respol.2017.10.007) 😉.
+- **Serendipia**, algo esencial en la ciencia, aunque muchas veces se nos olvide. Y si no, [mírate este paper](https://doi.org/10.1016/j.respol.2017.10.007) 😉.
 
--   **Búsqueda por autores/escuelas.** En muchos casos, identificar a las referencias del área es vital para poder identificar su trabajo y analizar su evolución más allá de los términos que hayan empleado para describir estos trabajos.
+- **Búsqueda por autores/escuelas.** En muchos casos, identificar a las referencias del área es vital para poder identificar su trabajo y analizar su evolución más allá de los términos que hayan empleado para describir estos trabajos.
 
--   **Navegación a través de citas y referencias.** Muy útil a la hora de expandir nuestro corpus. También puede emplearse (aunque con algunas precauciones) esta estrategia en las revisiones sistemáticas.
+- **Navegación a través de citas y referencias.** Muy útil a la hora de expandir nuestro corpus. También puede emplearse (aunque con algunas precauciones) esta estrategia en las revisiones sistemáticas.
 
 ## El corpus limpio: qué tenemos al final de este bloque
 
 Al terminar el proceso de búsqueda, importación y deduplicación (gestión de referencias con Zotero — ver Apéndice), debemos tener:
 
--   Un **recuento documentado** de registros por base de datos (imprescindible para PRISMA)
--   Un corpus de referencias sin duplicados, organizado en Zotero
--   Los metadatos básicos completos: título, autores, año, revista, DOI, abstract
+- Un **recuento documentado** de registros por base de datos (imprescindible para PRISMA)
+- Un corpus de referencias sin duplicados, organizado en Zotero
+- Los metadatos básicos completos: título, autores, año, revista, DOI, abstract
 
 Este corpus es el punto de partida tanto para el proceso de lectura (Bloque 5) como para el análisis con las herramientas de apoyo documentadas en el Apéndice (VOSviewer, NotebookLM).
 
